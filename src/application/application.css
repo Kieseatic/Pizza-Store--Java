@@ -1,0 +1,76 @@
+.check-box .box {
+    -fx-scale-x: 0.4; 
+    -fx-scale-y: 0.4; 
+    -fx-padding: 0 0 0 2px; 
+    -fx-text-fill: #333; 
+    -fx-background-color: transparent;
+    -fx-box-border: transparent;
+}
+
+.checkbox .box {
+    -fx-background-color: white; 
+    -fx-border-color: #4CAF50; 
+    -fx-border-width: 2; 
+    -fx-border-radius: 3; 
+    -fx-pref-width: 16; 
+    -fx-pref-height: 16;
+    -fx-background-radius: 3; 
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.2), 3, 0.5, 0, 1);
+}
+
+.checkbox:hover .box {
+    -fx-border-color: #45A049; 
+}
+
+.checkbox:selected .box {
+    -fx-background-color: #4CAF50; 
+    -fx-border-color: #4CAF50; 
+}
+
+.checkbox:selected .box:focused {
+    -fx-border-color: #388E3C; 
+}
+
+.checkbox:selected .box .mark {
+    -fx-background-color: white; 
+    -fx-shape: "M 5 9 L 8 12 L 13 5"; 
+    -fx-background-insets: 0;
+    -fx-background-radius: 0;
+}
+
+.slider .track {
+    -fx-background-color: #d3d3d3; 
+}
+
+.slider .thumb {
+    -fx-background-color: #ff6347; 
+}
+
+.button {
+    -fx-background-color: #4CAF50; 
+    -fx-text-fill: white; 
+    -fx-font-size: 14px; 
+    -fx-font-family: "Arial", sans-serif; 
+    -fx-padding: 10 20 10 20; 
+    -fx-border-radius: 5; 
+    -fx-background-radius: 5; 
+    -fx-border-color: transparent; 
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.25), 4, 0.5, 0, 2);
+}
+
+.button:hover {
+    -fx-background-color: #45A049; 
+    -fx-cursor: hand; 
+}
+
+.button:pressed {
+    -fx-background-color: #388E3C; 
+    -fx-effect: none; 
+    -fx-translate-y: 2px; 
+}
+
+.button:focused {
+    -fx-border-color: #388E3C; 
+    -fx-border-width: 2; 
+    -fx-background-color: #4CAF50; 
+}

@@ -1,0 +1,21 @@
+
+
+Class Design
+- In my design, I have chosen to implement multiple classes to encapsulate different functionalities and responsibilities. 
+This approach promotes modularity and maintainability. Each class handles a specific aspect of the program, allowing for easier 
+debugging and enhancement in the future. By separating concerns, the design becomes cleaner and more understandable, 
+facilitating collaboration in team environments and allowing for independent testing of each component.
+
+Data Structure
+- I opted for a hash table as my primary data structure in the solution. The hash table provides average-case 
+O(1) time complexity for insertion, deletion, and search operations, which is crucial for performance in applications 
+that require frequent access to key-value pairs. This efficiency makes hash tables suitable for situations where quick 
+lookups are necessary, such as in a caching system or a dictionary-like structure.
+
+- In comparison, I considered using an array as an alternative data structure. While arrays offer O(1) time complexity 
+for element access by index, they have limitations. Inserting or deleting elements can take O(n) time, especially when 
+the array needs to be resized or elements need to be shifted. Thus, while arrays can be faster for indexed access, they 
+do not perform as well as hash tables in scenarios requiring frequent insertions and deletions.
+
+In conclusion, the choice of multiple classes enhances code organization, and the hash table provides optimal performance 
+for the requirements of the solution. These design decisions contribute to a robust and efficient implementation.

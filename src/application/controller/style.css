@@ -1,0 +1,36 @@
+/* styles.css */
+
+.root {
+    -fx-background-color: #f2f2f2; /* Light gray background */
+}
+
+.text-area {
+    -fx-background-color: #ffffff; /* White background for the text area */
+    -fx-font-size: 14px; /* Font size */
+    -fx-padding: 10px; /* Padding inside the text area */
+    -fx-border-color: #ccc; /* Border color */
+    -fx-border-radius: 5px; /* Rounded corners */
+}
+
+.vbox {
+    -fx-alignment: CENTER; /* Center alignment */
+    -fx-spacing: 15; /* Space between components */
+    -fx-padding: 20; /* Padding around the VBox */
+}
+
+.label {
+    -fx-font-size: 16px; /* Larger font size for labels */
+    -fx-font-weight: bold; /* Bold text */
+}
+
+.button {
+    -fx-background-color: #4CAF50; /* Green background for buttons */
+    -fx-text-fill: white; /* White text color */
+    -fx-padding: 10px 20px; /* Padding for buttons */
+    -fx-font-size: 14px; /* Font size */
+    -fx-border-radius: 5px; /* Rounded corners for buttons */
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Darker green on hover */
+}
